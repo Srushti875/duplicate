@@ -4,15 +4,22 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
-    background-color: rgb(174, 238, 238);
+    /* background-color: rgb(174, 238, 238); */
+    background-image:url("background.jpeg");
     text-align: center;
     
   
 }
 body{
     background-color:none;
+    background-image:url("background.jpeg");
 }
-
+p{
+    font-size: 25px;
+}
+h1{
+    margin-top: 200px;
+}
 nav{
     height: 80px;
     width: 100%;
@@ -44,6 +51,7 @@ nav a{
     border: none;
     padding: 7px 10px;
     text-align: center;
+    background: none;
 }
 
 nav #icon{
@@ -57,8 +65,8 @@ nav #icon{
 }
 @media (max-width:1048px) {
     label.logo{
-        font-size: 32px;
-        /* padding-left: 60px; */
+        font-size: 25px;
+        
     }
     nav ul{
         margin-right: 20px;
@@ -66,7 +74,7 @@ nav #icon{
     nav a{
         font-size: 17px;
     }
-    @media(max-width:909px){
+    @media(max-width:600px){
         nav #icon{
             display: block;
         }
@@ -77,6 +85,7 @@ nav #icon{
             top: 80px;
             left:-100%;
             text-align: center;
+           
         }
     }
     nav li{
@@ -87,29 +96,38 @@ nav #icon{
     nav a{
         font-size: 20px;
     }
-    a.active,a:hover{
+    /* a.active,a:hover{
         border: none;
 
-    }
+    } */
     nav ul.show{
         left:0;
     }
-   .h1 {
+    h1 {
         font-size: 40px;
         text-align: center;
-        padding-top: 150px;
+        padding-top: -50px;
+         margin-top:150px;
+         text-align: center;
     
     }
-    .p{
+    /* p{
+       
         padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+       
 
-    }
-    .para{
+    } */
+    p.para{
         color: rgb(35, 34, 34);
        font-family:sans-serif ;
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 40px;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .primary{
         color: blue;
